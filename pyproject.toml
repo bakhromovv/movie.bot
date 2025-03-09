@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "telegram.py"
+version = " 25.0.1"
+description = "A simple Telegram bot"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-telegram-bot = "^25.0.1"
+requests = "^2.28.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
